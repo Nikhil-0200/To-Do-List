@@ -88,7 +88,7 @@ function UptBtn(index){
         <TaskItem 
         key={index}
         title={item.task} 
-        completed={item.completed ? "Yes" : "No"}  
+        completed={item.completed}  
         taskAssignedTo={item.taskAssignedTo}  
         DltBtn={()=>DltBtn(index)}
         UptBtn = {()=>UptBtn(index)}
